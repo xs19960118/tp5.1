@@ -22,16 +22,4 @@ class Test
     {
         echo $param . '</>';
     }
-
-    // 自定义行为
-    public function sleep($param)
-    {
-        echo $param . '</>';
-    }
-
-    // 自定义行为
-    public function coding($param)
-    {
-        echo $param . '</>';
-    }
 }

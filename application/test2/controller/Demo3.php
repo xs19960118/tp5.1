@@ -14,11 +14,19 @@ class Demo3
 
     }
 
-    // 自定义钩子
     public function fun2()
     {
         Hook::listen('eat', '吃饭');
 
         return '... ...';
+    }
+
+    public function fun3()
+    {
+        Hook::listen('eat', '吃饭');
+        Hook::listen('sleep', '睡觉');
+        Hook::listen('coding', '编码');
+
+        return '完事了 ... ...';
     }
 }

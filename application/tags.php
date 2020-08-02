@@ -12,9 +12,7 @@
 // 应用行为扩展定义文件
 return [
     // 应用初始化
-    'app_init'     => [
-         'app\test2\behavior\Test',
-    ],
+    'app_init'     => [],
     // 应用开始
     'app_begin'    => [],
     // 模块初始化
@@ -28,8 +26,4 @@ return [
     // 应用结束
     'app_end'      => [],
 
-    // 自定义行为
-    'eat'          => [
-        'app\test2\behavior\Test2',
-    ]
 ];
