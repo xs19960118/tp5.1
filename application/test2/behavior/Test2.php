@@ -8,6 +8,6 @@ class Test2
 {
     public function run($param)
     {
-        echo '进行了' . $param . '行为';
+        echo $param . 'test2' . '</br>';
     }
 }

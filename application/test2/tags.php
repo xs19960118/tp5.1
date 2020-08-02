@@ -4,7 +4,7 @@
 return [
     // 应用初始化
     'app_init'     => [
-        'app\\test2\\behavior\\Test',
+//        'app\\test2\\behavior\\Test',
     ],
     // 应用开始
     'app_begin'    => [],
@@ -20,9 +20,9 @@ return [
     'app_end'      => [],
 
     // 自定义行为
-    'eat'          => [
-        'app\\test2\\behavior\\Test2',
-        'app\\test2\\behavior\\Test3',
-        'app\\test2\\behavior\\Test4',
-    ]
+//    'daily'          => [
+//        'app\\test2\\behavior\\Test2',
+//        'app\\test2\\behavior\\Test3',
+//        'app\\test2\\behavior\\Test4',
+//    ]
 ];
