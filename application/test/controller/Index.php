@@ -9,6 +9,11 @@ class Index
     public function hello($name = '向上')
     {
         // 输出hello,world!
+
+        $n = 1;
+        $n = 2;
+        $n = 3;
+
         return 'hello,world!' . $name;
     }
 
